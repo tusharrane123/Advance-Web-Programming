@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        html,body{
+            margin: 0px;
+        }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background:linear-gradient(orange, whitesmoke, lightgreen) ;
+    
+    }
+    
+</style>
+    <script src="2.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="myclass">
+        <form action="" id="id1" method="name" post="Tushar" >
+            <h3 class="class1">Username</h3>
+            <input type="email" placeholder="Enter Your Username" id="username" minlength="3" maxlength="10" >
+
+            <h3 class="class1">Password</h3>
+            <input type="password" placeholder="Enter password" id="password" minlength="5" maxlength="10"><br>
+            
+            <button onclick="validate()" type="button" style="margin-top:8px" >Login</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
